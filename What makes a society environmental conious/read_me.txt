@@ -1,0 +1,2 @@
+This project is used to gather insights in potentially important latent factors impacting environmental concious behaviour.
+All data is freely available. The data is read from the internet and may change over time.
