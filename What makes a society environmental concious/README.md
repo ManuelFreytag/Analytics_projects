@@ -12,3 +12,11 @@ This report therefore aims to investigate the relation between environmental con
 
 The analysis in this report starts by defining and quantifying environmental consciousness. We decided to use the environmental vitality score as proposed in Hsu, A. (2016). For a comprehensive list of potential indicators we choose to adapt the indicators of sustainable development of the UN (UN, 2017). However, the sources of all proposed indicators vary significantly. Unfortunately the time limited nature of this project forced us to reduce our analysis on indicators provided by the worldbank.
 Additionally, several indicators included missing values. This forced us to exclude indicators in our analysis of which imputation was not expected to be fruitful. We perform a factor analysis to determine the underlying motivations or hinderings for environmental conscious behavior. The resulting factors are then rotated by a varimax rotation and interpreted based on their factor loadings. In order to understand the impact of those latent variables we perform a final linear regression on the transformed factor values.
+
+# Running
+
+This analyisis is done in jupyter. Most of the data used in this analysis referenced downloads the data directly from the web.
+Some of the URLs used might need to be updated for the notebook to compile properly.  
+A reference list of all data can be found at the bottom of the notebook.
+
+It is important that the "Selected_Indicators.xlsx" spreadsheet is in the same directory as the notebook.
