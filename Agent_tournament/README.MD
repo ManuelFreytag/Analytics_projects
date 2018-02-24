@@ -2,26 +2,21 @@
 This repository contains an R script to simulate an tournament of multple Agents within a tournament for an iterative prisoners dilema.
 
 # The Idea
+This project wants to determine if a machine learning agent might be a valid approach for the iterative prisoners dilema.
 This video explains the concept of the iterative prisoners dilema nicely.
 
 [![Repeated Prisoners Dilema](https://img.youtube.com/vi/Elqs5xDu6ZI/0.jpg)](https://www.youtube.com/watch?v=Elqs5xDu6ZI "Iterative prisoners dilema")
 
-There is a multitude of approaches possible for these kinds of problems.
-
-This video explains some of the basic techniques and strategies of the iterative prisoners dilema
+This video explains some of the basic techniques and strategies within the iterative prisoners dilema.
 [![Basic strategies](https://img.youtube.com/vi/BOvAbjfJ0x0/0.jpg)](https://www.youtube.com/watch?v=BOvAbjfJ0x0 "Basic strategies")
 
-Some are totally observable for pattern recognition tools with given information as they are purely based on logic.
+Some of the most sucessfull strategies are totally observable for pattern recognition tools with given information as they are purely based on logic.
 Others incorporate randomness and thus incorporate a default error.
 As seen in the video, previous approaches the Tit for Tat strategy proved to be a good approximation in a mixed strategy environment.
 I want to observe if a machine learning approach might be more robust.
 
 # The ML Agent
-In this setting a typical problem is a "cold start".
-This means that the ML agent does not have sufficient information in the beginning of the tournament.
-Therefore, it starts the first 10 rounds with an optimistic tit for tat strategy.
-
-Our agent considers the bids of the opponent agent versus our agent and versus its previous opponents.
+The agent considers the bids of the opponent agent versus our agent and versus its previous opponents.
 This is necessary as 10 rounds might not be enougth to sufficiently ensure that the ML agent had a previous encounter with all other agents.
 In this case the tree learner would have no data set for the interaction between us and him.
 Thus, he considers the behaviour of the opponent agent by looking in the playbook.
@@ -33,6 +28,13 @@ In particular, our agent takes into account:
 4. The last bids of the opponent agent versus our agent 2 round ago
 5. General percentage of “defect” bids
 
+I selected a simple tree learner as the strategies of the opponent agents are not sufficticated.
+A tree learner is more than capable of recognizing all rational strategies in our environment.
+
+In this setting a typical problem is a "cold start".
+This means that the ML agent does not have sufficient information in the beginning of the tournament.
+Therefore, it starts the first 10 rounds with an optimistic tit for tat strategy.
+
 # The tournament
 For a proof and to improve of our agent concept we elaborated the tournament structure and implemented multiple rational agent concepts (see attached .R File).
 Our self-made tournament consists of 10 agents.
@@ -40,6 +42,8 @@ Our self-made tournament consists of 10 agents.
 * 3 of them focus on the frequency strategy
 * 2 of them is playing random
 * 2 of them is our machine learning agent
+
+[ MISSING ELABORATION ]
 
 # The script
 The script contains three main parts:
