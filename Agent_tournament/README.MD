@@ -4,7 +4,7 @@ This repository contains an R script to simulate an tournament of multple Agents
 # The Idea
 This video explains the concept of the iterative prisoners dilema nicely.
 
-[i[Repeated Prisoners Dilema](https://img.youtube.com/vi/Elqs5xDu6ZI/0.jpg)](https://www.youtube.com/watch?v=Elqs5xDu6ZI "Iterative prisoners dilema")
+[![Repeated Prisoners Dilema](https://img.youtube.com/vi/Elqs5xDu6ZI/0.jpg)](https://www.youtube.com/watch?v=Elqs5xDu6ZI "Iterative prisoners dilema")
 
 There is a multitude of approaches possible for these kinds of problems.
 
