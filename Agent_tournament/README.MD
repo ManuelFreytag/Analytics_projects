@@ -37,13 +37,14 @@ Therefore, it starts the first 10 rounds with an optimistic tit for tat strategy
 
 # The tournament
 For a proof and to improve of our agent concept we elaborated the tournament structure and implemented multiple rational agent concepts (see attached .R File).
+The tournament is already explained in the video.
+Here, the agents compete in 1000 iteration against each other. The pairings for each iterations differ and are chosen randomly.
+
 Our self-made tournament consists of 10 agents.
 * 3 of them follow the titfortat strategy.
 * 3 of them focus on the frequency strategy
 * 2 of them is playing random
 * 2 of them is our machine learning agent
-
-[ MISSING ELABORATION ]
 
 # The script
 The script contains three main parts:
