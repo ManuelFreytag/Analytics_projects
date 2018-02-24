@@ -8,8 +8,8 @@ This video explains the concept of the iterative prisoners dilema nicely.
 
 There is a multitude of approaches possible for these kinds of problems.
 
-This video explains some of the basic techniques and strategies of the iterative prisoners dilema:
-https://www.youtube.com/watch?v=BOvAbjfJ0x0
+This video explains some of the basic techniques and strategies of the iterative prisoners dilema
+[![Basic strategies](https://img.youtube.com/vi/BOvAbjfJ0x0/0.jpg)](https://www.youtube.com/watch?v=BOvAbjfJ0x0 "Basic strategies")
 
 Some are totally observable for pattern recognition tools with given information as they are purely based on logic.
 Others incorporate randomness and thus incorporate a default error.
