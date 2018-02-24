@@ -3,6 +3,8 @@ This repository contains an R script to simulate an tournament of multple Agents
 
 # The Idea
 This video explains the concept of the iterative prisoners dilema nicely.
+
+[i[Repeated Prisoners Dilema](https://img.youtube.com/vi/Elqs5xDu6ZI/0.jpg)]
 https://www.youtube.com/watch?v=Elqs5xDu6ZI
 
 There is a multitude of approaches possible for these kinds of problems.
@@ -30,7 +32,7 @@ In particular, our agent takes into account:
 2. The last bids of the opponent agent 2 round ago
 3. The last bids of the opponent agent versus our agent 1 round ago
 4. The last bids of the opponent agent versus our agent 2 round ago
-5. General percentage of ìdefectî bids
+5. General percentage of ‚Äúdefect‚Äù bids
 
 # The tournament
 For a proof and to improve of our agent concept we elaborated the tournament structure and implemented multiple rational agent concepts (see attached .R File).
